@@ -1,27 +1,22 @@
 <?php
+    use yii\helpers\Html;
 
-use yii\helpers\Html;
+    /* @var $this yii\web\View */
+    /* @var $name string */
+    /* @var $message string */
+    /* @var $exception Exception */
 
-/* @var $this yii\web\View */
-/* @var $name string */
-/* @var $message string */
-/* @var $exception Exception */
-
-$this->title = $name;
+    $this->title = $name;
 ?>
 <div class="site-error">
-
     <h1><?= Html::encode($this->title) ?></h1>
-
     <div class="alert alert-danger">
         <?= nl2br(Html::encode($message)) ?>
     </div>
-
     <p>
-        The above error occurred while the Web server was processing your request.
+        A problem occurred while the server processed the request you made.
     </p>
     <p>
-        Please contact us if you think this is a server error. Thank you.
+        Please, if you think it's a server error contact me via <a href="https://t.me/TalkToDelt_Bot" style="color: blue;">Telegram</a>. Thank you.
     </p>
-
 </div>

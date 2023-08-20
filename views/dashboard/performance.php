@@ -6,7 +6,7 @@ use yii\web\JsExpression;
 use yii\data\SqlDataProvider;
 use app\models\Cashbook;
 
-$this->title = 'Economizzer';
+$this->title = 'WalletWise';
 $this->title = Yii::t('app', 'Annual Performance');
 ?>
 <div class="dashboard-index">

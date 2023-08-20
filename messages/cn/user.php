@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => '更改您的邮箱地址需要邮件确认',
     'Connected' => '已连接',
     'Create Time' => '创建时间',
+    'Currency' => '货币',
+    'Decimal Separator' => '小数分隔符',
     'Disconnect' => '断开',
     'Full Name' => '全名',
     'Go home' => '返回主页',

@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => 'Ändern der Mailadresse erfordert Bestätigungsmail',
     'Connected' => 'Verbunden',
     'Create Time' => 'Erstellungsdatum',
+    'Currency' => 'Währung',
+    'Decimal Separator' => 'Dezimaltrennzeichen',
     'Disconnect' => 'Verbindung trennen',
     'Full Name' => 'Vor- und Nachname',
     'Go home' => 'Startseite',

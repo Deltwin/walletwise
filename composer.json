@@ -1,44 +1,44 @@
 {
-    "name": "gugoan/economizzer",
+    "name": "deltwin/walletwise",
     "description": "Open Source Personal Finance Manager",
     "keywords": ["yii2", "php", "finance", "money"],
-    "homepage": "http://www.economizzer.org/",
+    "homepage": "http://deltwin.github.io/wise/",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Gustavo G. Andrade",
-            "email": "gugoan@hotmail.com",
-            "homepage": "http://www.gustavoandrade.net.br",
+            "name": "Deltwin",
+            "homepage": "http://deltwin.github.io",
             "role": "Developer"
         }    
     ],
     "support": {
-        "issues": "https://github.com/gugoan/economizzer/issues",
-        "source": "https://github.com/gugoan/economizzer"
+        "issues": "https://github.com/Deltwin/walletwise/issues",
+        "source": "https://github.com/Deltwin/walletwise"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.14",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "yiisoft/yii2-jui": "~2.0.0",
-        "yiisoft/yii2-authclient": "~2.0.6",
-        "miloschuman/yii2-highcharts-widget": "^6.0",
-        "amnah/yii2-user": "^3.0",
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-authclient": "*",
+        "miloschuman/yii2-highcharts-widget": "*",
+        "amnah/yii2-user": "*",
         "kartik-v/yii2-widgets": "*",
         "kartik-v/yii2-grid": "@dev",
-        "kartik-v/yii2-number": "*"
+        "kartik-v/yii2-number": "*",
+	    "kartik-v/yii2-export": "*"
     },
     "require-dev": {
-        "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0",
-        "yiisoft/yii2-faker": "~2.0.0"
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
     },   
     "autoload": {
         "psr-0": {
-            "Economizzer": "src"
+            "walletwise": "src"
         }
     },
     "config": {

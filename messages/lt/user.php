@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => 'El. pašto pakeitimas reikalauja patvirtinimo',
     'Connected' => 'Prijungtas',
     'Create Time' => 'Sukųrimo data',
+    'Currency' => 'Valiuta',
+    'Decimal Separator' => 'Dešimtainis skyriklis',
     'Disconnect' => 'Atsijungti',
     'Full Name' => 'Pilnas Vardas',
     'Go home' => 'Į pagrindinį',

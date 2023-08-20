@@ -5,7 +5,7 @@ use yii\data\SqlDataProvider;
 use yii\grid\GridView;
 use app\models\Cashbook;
 
-$this->title = 'Economizzer';
+$this->title = 'WalletWise';
 $this->title = Yii::t('app', 'Overview');
 $this->params['breadcrumbs'][] = $this->title;
 

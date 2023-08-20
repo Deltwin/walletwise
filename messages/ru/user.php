@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => 'Изменение электронной почты требует подтверждения нового адреса',
     'Connected' => 'Подключен',
     'Create Time' => 'Дата создания',
+    'Currency' => 'Валюта',
+    'Decimal Separator' => 'Десятичный разделитель',
     'Disconnect' => 'Отключен',
     'Full Name' => 'Полное имя',
     'Go home' => 'На главную',

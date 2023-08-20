@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => '',
     'Connected' => 'Kapcsolódva',
     'Create Time' => '',
+    'Currency' => 'Pénznem',
+    'Decimal Separator' => 'Tizedeselválasztó',
     'Disconnect' => 'Kijelentkezés',
     'Full Name' => 'Teljes név',
     'Go home' => '',

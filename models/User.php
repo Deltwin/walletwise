@@ -34,8 +34,8 @@ class User extends BaseUser
             // admin crud rules
             [['role_id', 'status'], 'required', 'on' => ['admin']],
             [['role_id', 'status'], 'integer', 'on' => ['admin']],
-            [['ban_time'], 'integer', 'on' => ['admin']],
-            [['ban_reason'], 'string', 'max' => 255, 'on' => 'admin'],
+            [['banned_at'], 'integer', 'on' => ['admin']],
+            [['banned_reason'], 'string', 'max' => 255, 'on' => 'admin'],
         ];
 
         // add required rules for email/username depending on module properties

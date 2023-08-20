@@ -77,7 +77,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $model->description <> '' ? '<span style="color:'.$model->category->hexcolor_category.'">'.$model->category->desc_category.'</span>'.' <em class="text-muted">('.$model->description.')</em>' : '<span style="color:'.$model->category->hexcolor_category.'">'.$model->category->desc_category.'</span>';
                     },
             'contentOptions'=>['style'=>'width: 55%;text-align:left'],
-            'footer' => 'Total',
+            'footer' => Yii::t('app', 'Total'),
             'footerOptions' => ['style'=>'text-align:letf'],                  
             ],
             [

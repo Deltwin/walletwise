@@ -47,8 +47,8 @@ $this->title = Yii::t('app', 'Register');
         */ ?>
 
         <div class="col-lg-offset-1" style="color:#999;">
-        <!-- These terms are only Economizzer.org :) -->
-            <p><?= Yii::t('app', 'Creating your account on Economizzer.org you agree to the terms and usage policies,') ?> <?= HTML::a(Yii::t('app', 'Click to read'), "http://www.economizzer.org/policies.html", ['target' => '_blank']) ?></p>
+        <!-- These terms are only walletwise.org :) -->
+            <p><?= Yii::t('app', 'Creating your account on walletwise.org you agree to the terms and usage policies,') ?> <?= HTML::a(Yii::t('app', 'Click to read'), "http://www.walletwise.org/policies.html", ['target' => '_blank']) ?></p>
         </div>
 
         <div class="form-group">

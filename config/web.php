@@ -3,13 +3,13 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'economizzer',
+    'id' => 'walletwise',
     'basePath' => dirname(__DIR__),
     'bootstrap' => [
         'log',
         [
             'class' => 'app\components\LanguageSelector',
-            'supportedLanguages' => ['en', 'pt', 'ru', 'ko', 'hu', 'fr', 'cn', 'de', 'es', 'ca', 'lt'],
+            'supportedLanguages' => ['it', 'en', 'pt', 'ru', 'ko', 'hu', 'fr', 'cn', 'de', 'es', 'ca', 'lt'],
         ],
     ],
     'aliases' => [
@@ -26,7 +26,7 @@ $config = [
         'urlManager' => [
             'class' => 'yii\web\UrlManager',
             'showScriptName' => false,
-            'enablePrettyUrl' => true,
+            'enablePrettyUrl' => false, //if gives u 404 (or some other problems) enable this otherwise leave it false.
             'rules' => array(
                     '<controller:\w+>/<id:\d+>' => '<controller>/view',
                     '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
@@ -34,7 +34,7 @@ $config = [
             ),
         ],
         'session' => [
-            'name' => '_economizzerSessionId',
+            'name' => '_walletwiseSessionId',
             'savePath' => __DIR__ . '/../runtime',
         ],
         'request' => [
@@ -61,7 +61,7 @@ $config = [
             'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => true,
             'messageConfig' => [
-                'from' => ['master@economizzer.com' => 'Admin'],
+                'from' => ['admin@walletwise.com' => 'Admin'],
                 'charset' => 'UTF-8',
             ]
         ],

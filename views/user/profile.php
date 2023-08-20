@@ -28,9 +28,10 @@ $this->title = Yii::t('user', 'Profile');
         'enableAjaxValidation' => true,
     ]); ?>
 
-    <?= $form->field($profile, 'full_name') ?>
+    <?= $form->field($profile, 'full_name')->textInput(['readonly' => true]) ?>
 
     <?php echo $form->field($profile, 'language')->dropDownList([
+        'it' => Yii::t('app', 'Italian'),
         'en' => Yii::t('app', 'English USA'),
         'pt' => Yii::t('app', 'Brazilian Portuguese'),
         'ru' => Yii::t('app', 'Russian'),

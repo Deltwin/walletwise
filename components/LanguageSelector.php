@@ -23,7 +23,7 @@ class LanguageSelector implements BootstrapInterface
 
             //Yii::$app->defaultRoute = 'cashbook/overview';
             //Yii::$app->user->getIdentity()->language = Yii::$app->language;
-            //Yii::$app->formatter->defaultTimeZone = 'Europe/Malta';
+            //Yii::$app->formatter->defaultTimeZone = 'Europe/Rome';
             //Yii::$app->formatter->timeZone = 'Europe/Malta';
             //Yii::$app->formatter->dateFormat = 'php:d/m/Y';
             //Yii::$app->formatter->datetimeFormat = 'php:d/m/Y H:i:s';

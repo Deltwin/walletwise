@@ -26,6 +26,8 @@ return [
     'Changing your email requires email confirmation' => 'Canviar el correu electrònic requereix un correu de confirmació',
     'Connected' => 'Connectat',
     'Create Time' => 'Data de creació',
+    'Currency' => 'Moneda',
+    'Decimal Separator' => 'Separador decimal',
     'Disconnect' => 'Desconnectar',
     'Full Name' => 'Nom complet',
     'Go home' => 'Inici',
